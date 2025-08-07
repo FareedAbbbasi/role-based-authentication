@@ -1,21 +1,4 @@
-# Ignore all node_modules folders
-**/node_modules/
-
-# Ignore all .env files
-**/.env
-
-# Logs
-*.log
-npm-debug.log*
-
-# Build output
-fronted/dist/
-fronted/build/
-
-# System files
+node_modules
+.env
 .DS_Store
-Thumbs.db
-
-# Editor settings
-.vscode/
-.idea/
+dist
