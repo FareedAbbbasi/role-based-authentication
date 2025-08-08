@@ -8,9 +8,13 @@ app.use(json())
 
 app.use(urlencoded({ extended: true }))
 
+
+// routes
 app.use("/api/auth", AuthRoute)
 
 
+
+// server and data
 app.listen(4000, () => {
     ConnectDB();
     console.log(`The app is listen at http//localhost:${4000}`)
